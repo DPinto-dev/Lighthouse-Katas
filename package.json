@@ -1,0 +1,20 @@
+{
+  "name": "lighthouse-kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "case-maker2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DPintoLL/Lighthouse-Katas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DPintoLL/Lighthouse-Katas/issues"
+  },
+  "homepage": "https://github.com/DPintoLL/Lighthouse-Katas#readme"
+}
