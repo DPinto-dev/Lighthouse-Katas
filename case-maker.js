@@ -1,5 +1,4 @@
-// Lighthouse Labs Kata #7 - Case Maker
-//Kata 7 - Case Maker (~10 min)
+// Lighthouse Labs Kata #7 - Case Maker (~10 min)
 // Create a function named camelCase that will convert a string to camel case, and return the result.
 
 const camelCase = function (input) {
