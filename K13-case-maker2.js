@@ -114,13 +114,13 @@ const makeCase = function (input, casing) {
     let tempArr = input.slice(); //Copies input (Array.from(input))
 
     // Sorts according to precedence requirement
-    console.log("Cases as given by user", casing);
+    // console.log("Cases as given by user", casing);
     casing.sort((a, b) => precedence[a] - precedence[b]);
-    console.log("Cases after precedence sorting", casing);
+    // console.log("Cases after precedence sorting", casing);
 
     for (let c of casing) {
       tempArr = cases[c]([...tempArr]); //Had to make sure the argument was always an array. cases[x]() will return string
-      console.log("Casing:", c, "->", tempArr);
+      // console.log("Casing:", c, "->", tempArr);
     }
     return `Final Output: ${tempArr}`;
   }
@@ -128,19 +128,19 @@ const makeCase = function (input, casing) {
   return `Output: ${cases[casing](input)}`;
 };
 
-// console.log(makeCase("this is a string", "camel"));
-// console.log(makeCase("this is a string", "pascal"));
+console.log(makeCase("this is a string", "camel"));
+console.log(makeCase("this is a string", "pascal"));
 console.log(makeCase("this is a string", "snake"));
 console.log(makeCase("this is a string", "kebab"));
-// console.log(makeCase("this is a string", "title"));
-// console.log(makeCase("this is a string", "vowel"));
-// console.log(makeCase("this is a string", "consonant"));
-// console.log(makeCase("this is a string", ["upper", "snake"]));
-// console.log(makeCase("this is a string", ["vowel", "lower"]));
-// console.log(makeCase("this is a string", ["lower", "vowel"]));
-// console.log(
-//   makeCase("this is a string", ["lower", "pascal", "kebab", "vowel"])
-// );
+console.log(makeCase("this is a string", "title"));
+console.log(makeCase("this is a string", "vowel"));
+console.log(makeCase("this is a string", "consonant"));
+console.log(makeCase("this is a string", ["upper", "snake"]));
+console.log(makeCase("this is a string", ["vowel", "lower"]));
+console.log(makeCase("this is a string", ["lower", "vowel"]));
+console.log(
+  makeCase("this is a string", ["lower", "pascal", "kebab", "vowel"])
+);
 console.log(
   makeCase("this is a string", [
     "camel",

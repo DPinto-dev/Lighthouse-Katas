@@ -1,8 +1,8 @@
 {
-  "name": "lighthouse-kata",
+  "name": "lighthouse-katas",
   "version": "1.0.0",
   "description": "",
-  "main": "case-maker2.js",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/DPintoLL/Lighthouse-Katas/issues"
   },
-  "homepage": "https://github.com/DPintoLL/Lighthouse-Katas#readme"
+  "homepage": "https://github.com/DPintoLL/Lighthouse-Katas#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
